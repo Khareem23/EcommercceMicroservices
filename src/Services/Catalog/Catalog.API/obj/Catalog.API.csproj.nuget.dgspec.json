@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/khareem-usr/MyProjects/Microservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {}
+    "/Users/khareem-usr/MyProjects/1a-ALL MICROSERVICES /Microservices-MOskaya/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {}
   },
   "projects": {
-    "/Users/khareem-usr/MyProjects/Microservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {
+    "/Users/khareem-usr/MyProjects/1a-ALL MICROSERVICES /Microservices-MOskaya/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khareem-usr/MyProjects/Microservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
+        "projectUniqueName": "/Users/khareem-usr/MyProjects/1a-ALL MICROSERVICES /Microservices-MOskaya/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "/Users/khareem-usr/MyProjects/Microservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
+        "projectPath": "/Users/khareem-usr/MyProjects/1a-ALL MICROSERVICES /Microservices-MOskaya/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
         "packagesPath": "/Users/khareem-usr/.nuget/packages/",
-        "outputPath": "/Users/khareem-usr/MyProjects/Microservices/src/Services/Catalog/Catalog.API/obj/",
+        "outputPath": "/Users/khareem-usr/MyProjects/1a-ALL MICROSERVICES /Microservices-MOskaya/src/Services/Catalog/Catalog.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/khareem-usr/.nuget/NuGet/NuGet.Config"
@@ -44,7 +44,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -60,7 +64,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[5.0.13, 5.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

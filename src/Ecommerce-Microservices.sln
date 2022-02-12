@@ -1,10 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C402E54A-F97E-4BDF-B8A4-96958FCBAE25}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		docker-compose.override.yml = docker-compose.override.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{42AFB6ED-D1F0-40B0-8624-65ED90E3BA5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{1DF31008-40FB-4104-9937-7D221282302F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{F765863F-D9F0-41D3-8F98-BDD1091A8F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{B0006727-1168-46EF-875F-6023C3847F36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,11 +23,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{42AFB6ED-D1F0-40B0-8624-65ED90E3BA5A} = {C402E54A-F97E-4BDF-B8A4-96958FCBAE25}
 		{1DF31008-40FB-4104-9937-7D221282302F} = {42AFB6ED-D1F0-40B0-8624-65ED90E3BA5A}
+		{F765863F-D9F0-41D3-8F98-BDD1091A8F81} = {C402E54A-F97E-4BDF-B8A4-96958FCBAE25}
+		{B0006727-1168-46EF-875F-6023C3847F36} = {F765863F-D9F0-41D3-8F98-BDD1091A8F81}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1DF31008-40FB-4104-9937-7D221282302F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DF31008-40FB-4104-9937-7D221282302F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF31008-40FB-4104-9937-7D221282302F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF31008-40FB-4104-9937-7D221282302F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0006727-1168-46EF-875F-6023C3847F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0006727-1168-46EF-875F-6023C3847F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0006727-1168-46EF-875F-6023C3847F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0006727-1168-46EF-875F-6023C3847F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
